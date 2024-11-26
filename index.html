@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expert System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="fixedHeader">
+        <p id="name">Project by Stephen Gyan Bimpong (4231230143)</p>
+        <img src="media/folio-4.jpg" alt="GCTU LOGO">
+    </div>
+    <div id="title">
+        <h1>Programming Language Advisor</h1> 
+        <h3>Introduction to Artificial Intelligence</h3>
+        <div id="description">Discover the perfect programming language for your projects with our expert system.</div>   
+    </div>
+    <div class="container">
+        <p class="heading">Answer the questions below to find the best programming language for you!</p>
+        <div id="questionnaire">
+            <div id="question-container"></div>
+        </div>
+        <div id="result" class="hidden">
+            <h2>Recommended Language</h2>
+            <div id="user-choices"></div>
+            <p id="recommendation"></p>
+            <button onclick="restart()">Restart</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
